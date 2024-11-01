@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url(universal.css);
+
+/*
+CSS page for the Hobbies page
+*/
+
+section#hobbies {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: .2fr 3fr;
+    grid-template-areas: "header  header   header"
+                         "ul      table    tablePicture";
+    grid-gap: 10px;
+    height: 30%;
+}
+
+ul {
+    font-size: 35px;
+}
+
+img#videogames {
+    grid-area: tablePicture;
+    width: 100%;
+}
+
+table#videoGames {
+    grid-area: "table";
+    background: rgb(50, 4, 4);
+    border: 10px outset rgb(51, 41, 41);
+    border-collapse: collapse;
+    font-size: 0.75em;
+    width: 100%
+}
+
+ table#videoGames th, table#videoGames td {
+    border: 1px solid gray;
+    padding: 5px;
+    vertical-align: top;
+    color: rgb(237, 237, 237);
+    font-size: large;
+}
+
+@media only screen and (max-width: 999px) {
+    table#videoGames th, table#videoGames td {
+        font-size: 35px;
+    }
+}

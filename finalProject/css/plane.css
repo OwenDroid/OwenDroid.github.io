@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url(universal.css);
+
+/*
+CSS page for the Lore page
+*/
+
+section {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: .2fr 3fr 4fr;
+    grid-template-areas: "header  header  header"
+                         "ul      body1    picture1"
+                         "ul      body2    picture2"
+                         "ul      body3    picture3"
+                         "ul      game     form";
+    grid-gap: 10px;
+    height: 30%;
+}
+
+#b52 {
+    grid-area: body1;
+}
+
+#f22 {
+    grid-area: body2;
+}
+
+#c17 {
+    grid-area: body3;
+}
+
+#b52, #f22, #c17{
+    font-size: 20px;
+}
+
+#b52pic {
+    grid-area: picture1;
+    width: 800px;
+    height: auto;
+}
+
+#f22pic {
+    grid-area: picture2;
+    width: 800px;
+    height: auto;
+}
+
+#c17pic {
+    grid-area: picture3;
+    width: 800px;
+    height: auto;
+}
+
+#game {
+    grid-area: game;
+}
+
+form {
+    grid-area: form;
+    outline: 2px solid white;
+    color: rgb(237, 237, 237);
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url(universal.css);
+
+/*
+CSS page for the Home page
+*/
+
+section#mainBody {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: .2fr 3fr 4fr;
+    grid-template-areas: "header  header  header"
+                         "ul      body    video"
+                         "ul      qf      video"
+                         "footer  footer  footer";
+    grid-gap: 10px;
+    height: 30%;
+}
+
+
+#intro {
+    grid-area: body;
+    font-size: medium;
+    color: rgb(237, 237, 237);
+    outline: 2px solid white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#quickFacts {
+    grid-area: qf;
+    color: rgb(237, 237, 237);
+    outline: 2px solid white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: right;
+}
+
+
+iframe {
+    grid-area: video;
+    outline: 2px solid white;
+    width: 100%;
+    height: 100%;
+}
+
+p,li,p#intro,ul {
+    font-size: 35px;
+}
+

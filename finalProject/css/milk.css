@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url(universal.css);
+
+/*
+CSS page for the Music I Like(MILK) page
+*/
+
+section {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: .2fr 3fr 4fr;
+    grid-template-areas: "header  header  header"
+                         "ul      body1    playlist1"
+                         "ul      body1    playlist2";
+    grid-gap: 10px;
+    height: 30%;
+}
+
+#rock {
+    grid-area: playlist1;
+    outline: 2px solid white;
+}
+
+#halo {
+    grid-area: playlist2;
+    outline: 2px solid white;
+}
+
+p {
+    grid-area: body1;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 999px) {
+    p {
+        font-size: 35px;
+    }
+
+}

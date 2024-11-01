@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url(universal.css);
+
+/*
+CSS page for the About Me page
+*/
+
+section#abtme {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: .2fr 3fr 4fr;
+    grid-template-areas: "header  header  header"
+                         "ul      body1    picture1"
+                         "ul      body2    picture2"
+                         "ul      body3    picture3";
+    grid-gap: 10px;
+    height: 30%;
+}
+
+p#first {
+    grid-area: body1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p#second {
+    grid-area: body2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p#third {
+    grid-area: body3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p#first, p#second, p#third {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 35px;
+}
+
+#f14 {
+    grid-area: picture1;
+}
+
+#trmbne {
+    grid-area: picture2;
+}
+
+#mySet {
+    grid-area: picture3;
+    width: 100%
+}
+
+@media print {
+    header, ul {
+        display: none;
+    }
+    
+    @page {
+        size: 8.5in 11in;
+        margin: 0.5in;
+     }
+     
+     #f14, #trmbne, #mySet {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 999px) {
+    #f14, #trmbne, #mySet {
+        width: 95%;
+    }
+
+    p#first, p#second, p#third {
+        font-size: 30px;
+    }
+}

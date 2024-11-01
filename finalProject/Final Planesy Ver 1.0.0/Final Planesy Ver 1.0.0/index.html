@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Final Planesy Ver 1.0.0</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="applab/fa-brands-400.woff2" as="font">
+  <link rel="preload" href="applab/fa-solid-900.woff2" as="font">
+  <link rel="preload" href="applab/fa-regular-400.woff2" as="font">
+  <link rel="preload" href="applab/fa-v4compatibility.woff2" as="font">
+  <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <script>
+    function setExportConfig(config) { window.EXPORT_OPTIONS = config; }
+  </script>
+  <script
+    src="https://studio.code.org/projects/applab/Nat9G4cq6habBTwi8wPUQncedWILAtCnNkE76ZNMqxk/export_config?script_call=setExportConfig"></script>
+  <script src="applab/applab-api.js"></script>
+  <script src="https://www.google.com/jsapi"></script>
+  <link rel="stylesheet" href="applab/applab.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="divApplab" class="appModern running" style="width: 320px; height: 450px; display: block;">
+    <div class="screen" tabindex="1" data-theme="default" id="mainMenu"
+      style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(0, 0, 0); --inline-bgcolor: #000000; display: block;"
+      data-inline-bgcolor=""><img alt="Title Logo" src="assets/TitleLogo.png"
+        data-canonical-image-url="assets/TitleLogo.png" data-image-type="file" data-object-fit="contain" id="image2"
+        style="height: 315px; width: 320px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: -5px; top: -10px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><button id="easyButton"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); border-color: rgb(14, 255, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 110px; top: 230px; --inline-bgcolor: #000000; --inline-color: #e8e6e3; --inline-border-top: #0ab300; --inline-border-right: #0ab300; --inline-border-bottom: #0ab300; --inline-border-left: #0ab300;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Easy</button><button id="mediumButton"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); border-color: rgb(0, 73, 255); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 110px; top: 275px; --inline-bgcolor: #000000; --inline-color: #e8e6e3; --inline-border-top: #0033b3; --inline-border-right: #0033b3; --inline-border-bottom: #0033b3; --inline-border-left: #0033b3;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Medium</button><button id="hardButton"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); border-color: rgb(255, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 110px; top: 325px; --inline-bgcolor: #000000; --inline-color: #e8e6e3; --inline-border-top: #b30000; --inline-border-right: #b30000; --inline-border-bottom: #b30000; --inline-border-left: #b30000;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Hard</button><button
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 105px; background-color: rgba(255, 164, 0, 0); color: rgb(255, 255, 255); border-color: rgb(255, 184, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 210px; top: 405px; --inline-bgcolor: rgba(204, 131, 0, 0); --inline-color: #e8e6e3; --inline-border-top: #b38100; --inline-border-right: #b38100; --inline-border-bottom: #b38100; --inline-border-left: #b38100;"
+        id="button1" data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">View Planes</button><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 94px; height: 18px; position: absolute; left: -10px; top: 430px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="label3" data-inline-color="" data-inline-bgcolor="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Ver 1.0.0</label></div>
+    <div class="screen" tabindex="1" data-theme="default" id="Easy"
+      style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(138, 237, 241); --inline-bgcolor: #0e7074; display: none;"
+      data-inline-bgcolor=""><img alt="F-16" src="assets/F-16.png" data-canonical-image-url="assets/F-16.png"
+        data-image-type="file" data-object-fit="contain" id="f16"
+        style="height: 210px; width: 210px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 55px; top: 220px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><button id="easyMissle"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 15px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Missle</button><button id="easyShoot"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 200px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Shoot</button><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(255, 255, 255); background-color: rgb(10, 8, 166); border-color: rgb(0, 0, 0); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 320px; height: 20px; position: absolute; left: -4.44089e-16px; top: 210px; text-align: center; --inline-color: #e8e6e3; --inline-bgcolor: #080685; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        id="easyLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left=""></label><img alt="MiG-29" src="assets/MiG-29.png"
+        data-canonical-image-url="assets/MiG-29.png" data-image-type="file" data-object-fit="contain" id="mig29"
+        style="height: 190px; width: 180px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 70px; top: 10px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 75px; height: 20px; position: absolute; left: 240px; top: 260px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="easyPlayerHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 60px; height: 20px; position: absolute; left: 255px; top: 70px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="easyEnemyHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label></div>
+    <div class="screen" tabindex="1" data-theme="default" id="Win"
+      style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(0, 0, 0); --inline-bgcolor: #000000; display: none;"
+      data-inline-bgcolor=""><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(182, 182, 174); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 54px; padding: 2px 15px; width: 220px; height: 113px; position: absolute; left: 75px; top: 5px; --inline-color: #b7b1a8; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="label1" data-inline-color="" data-inline-bgcolor="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">YOU WIN!</label><img alt=""
+        data-canonical-image-url="assets/silver-trophy.png" data-image-type="file" data-object-fit="contain"
+        id="image13"
+        style="height: 180px; width: 160px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 75px; top: 95px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-gg-hash="862759c0fde876229fc6374fbedcd75c0315fcb182307eb903765c6dd3da387c" data-icon-color="#b6b6ae"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""
+        src="assets/silver-trophy.png"><button id="homeButton"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(0, 0, 0); color: rgb(0, 187, 255); border-color: rgb(0, 187, 255); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 190px; top: 290px; background-size: contain; background-position: 50% 50%; background-repeat: no-repeat; --inline-bgcolor: #000000; --inline-color: #e8e6e3; --inline-border-top: #0083b3; --inline-border-right: #0083b3; --inline-border-bottom: #0083b3; --inline-border-left: #0083b3; background-image: url(&quot;https://studio.code.org/blockly/media/1x1.gif&quot;);"
+        data-canonical-image-url="" data-image-type="default" data-icon-color="#00bbff" data-inline-bgcolor=""
+        data-inline-color="" data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left="">HOME</button><button
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgba(255, 164, 0, 0); color: rgb(255, 255, 255); border-color: rgb(184, 1, 1); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 20px; top: 290px; --inline-bgcolor: rgba(204, 131, 0, 0); --inline-color: #e8e6e3; --inline-border-top: #c60101; --inline-border-right: #c60101; --inline-border-bottom: #c60101; --inline-border-left: #c60101;"
+        id="goToBossButton" data-inline-bgcolor="" data-inline-color="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left="">Boss?</button></div>
+    <div class="screen" tabindex="1" data-theme="default" id="Medium"
+      style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(138, 237, 241); --inline-bgcolor: #0e7074; display: none;"
+      data-inline-bgcolor=""><img alt="F-15C" src="assets/F-15C.png" data-canonical-image-url="assets/F-15C.png"
+        data-image-type="file" data-object-fit="contain" id="f15"
+        style="height: 165px; width: 165px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 80px; top: 230px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><button id="medMissle"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 15px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Missle</button><button id="medShoot"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 200px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Shoot</button><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(255, 255, 255); background-color: rgb(10, 8, 166); border-color: rgb(0, 0, 0); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 320px; height: 20px; position: absolute; left: -4.44089e-16px; top: 210px; text-align: center; --inline-color: #e8e6e3; --inline-bgcolor: #080685; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        id="medLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left=""></label><img alt="MiG-31" src="assets/MiG-31.png"
+        data-canonical-image-url="assets/MiG-31.png" data-image-type="file" data-object-fit="contain" id="mig31"
+        style="height: 215px; width: 200px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 65px; top: 10px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 60px; height: 20px; position: absolute; left: 259px; top: 70px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="medEnemyHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 70px; height: 20px; position: absolute; left: 245px; top: 280px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="medPlayerHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label></div>
+    <div class="screen" tabindex="1" data-theme="default" id="Hard"
+      style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(138, 237, 241); --inline-bgcolor: #0e7074; display: none;"
+      data-inline-bgcolor=""><img alt="F-22" src="assets/F-22.png" data-canonical-image-url="assets/F-22.png"
+        data-image-type="file" data-object-fit="contain" id="f22"
+        style="height: 160px; width: 145px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 85px; top: 245px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><button id="hardMissle"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 15px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Missle</button><button id="hardShoot"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 200px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Shoot</button><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(255, 255, 255); background-color: rgb(10, 8, 166); border-color: rgb(0, 0, 0); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 320px; height: 20px; position: absolute; left: -4.44089e-16px; top: 210px; text-align: center; --inline-color: #e8e6e3; --inline-bgcolor: #080685; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        id="hardLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left=""></label><img alt="Su-35S" src="assets/Su-35S.png"
+        data-canonical-image-url="assets/Su-35S.png" data-image-type="file" data-object-fit="contain" id="su35"
+        style="height: 190px; width: 180px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 125px; top: 10px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><img alt="Su-57" src="assets/Su-57.png" data-canonical-image-url="assets/Su-57.png"
+        data-image-type="file" data-object-fit="contain" id="su57"
+        style="height: 190px; width: 180px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 1.66533e-16px; top: 10px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 60px; height: 20px; position: absolute; left: 255px; top: 110px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="hardEnemyHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 75px; height: 20px; position: absolute; left: 240px; top: 295px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="hardPlayerHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label></div>
+    <div class="screen" tabindex="1"
+      style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(138, 237, 241); --inline-bgcolor: #0e7074; display: none;"
+      data-theme="default" id="Boss" data-inline-bgcolor=""><img alt="F-35" src="assets/F-35.png"
+        data-canonical-image-url="assets/F-35.png" data-image-type="file" data-object-fit="contain" id="f35"
+        style="height: 250px; width: 280px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 20px; top: 200px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(255, 255, 255); background-color: rgb(10, 8, 166); border-color: rgb(0, 0, 0); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 320px; height: 20px; position: absolute; left: -4.44089e-16px; top: 210px; text-align: center; --inline-color: #e8e6e3; --inline-bgcolor: #080685; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        id="bossLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left=""></label><img alt="ADFX-01" src="assets/ADFX-01.png"
+        data-canonical-image-url="assets/ADFX-01.png" data-image-type="file" data-object-fit="contain" id="adfx01"
+        style="height: 215px; width: 200px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 55px; top: 5px; margin: 0px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left=""><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 60px; height: 20px; position: absolute; left: 259px; top: 70px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="bossHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(77, 87, 95); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 13px; padding: 2px 15px; width: 70px; height: 20px; position: absolute; left: 245px; top: 280px; --inline-color: #b2aba1; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="bossPlayerHealthLabel" data-inline-color="" data-inline-bgcolor="" data-inline-border-top=""
+        data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""></label><button
+        id="bossShoot"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 200px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Shoot</button><button id="bossMissle"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgb(138, 202, 241); color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 15px; top: 380px; --inline-bgcolor: #0e4d74; --inline-color: #e8e6e3; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273;"
+        data-inline-bgcolor="" data-inline-color="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">Missle</button></div>
+    <div class="screen" tabindex="1" data-theme="default" id="trueWin"
+      style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(0, 0, 0); --inline-bgcolor: #000000; display: none;"
+      data-inline-bgcolor=""><label
+        style="margin: 0px; line-height: 1; overflow: hidden; overflow-wrap: break-word; max-width: 320px; border-style: solid; text-rendering: optimizespeed; color: rgb(255, 227, 0); background-color: rgba(0, 0, 0, 0); border-color: rgb(77, 87, 95); border-radius: 0px; border-width: 0px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; padding: 2px 15px; width: 170px; height: 110px; position: absolute; left: 80px; top: 45px; font-size: 54px; --inline-color: #ffe61a; --inline-bgcolor: rgba(0, 0, 0, 0); --inline-border-top: #70685c; --inline-border-right: #70685c; --inline-border-bottom: #70685c; --inline-border-left: #70685c;"
+        id="label2" data-inline-color="" data-inline-bgcolor="" data-inline-border-top="" data-inline-border-right=""
+        data-inline-border-bottom="" data-inline-border-left="">YOU WIN!</label><img alt=""
+        data-canonical-image-url="assets/gold-trophy.png" data-image-type="file" data-object-fit="contain" id="image1"
+        style="height: 180px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; position: absolute; left: 80px; top: 150px; margin: 0px; width: 160px; --inline-border-top: #8c8273; --inline-border-right: #8c8273; --inline-border-bottom: #8c8273; --inline-border-left: #8c8273; object-fit: contain; font-family: &quot;object-fit: contain;&quot;;"
+        data-gg-hash="c1a3bb5ea273182cf5c5c8086a6815027448ad46b002a5ade4df15f985a91820" data-icon-color="#ffe700"
+        data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom="" data-inline-border-left=""
+        src="assets/gold-trophy.png"><button id="homeButton2"
+        style="padding: 0px; margin: 0px; border-style: solid; height: 40px; width: 100px; background-color: rgba(0, 247, 255, 0); color: rgb(0, 187, 255); border-color: rgb(0, 187, 255); border-radius: 4px; border-width: 1px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 15px; position: absolute; left: 110px; top: 405px; background-size: contain; background-position: 50% 50%; background-repeat: no-repeat; --inline-bgcolor: rgba(0, 198, 204, 0); --inline-color: #e8e6e3; --inline-border-top: #0083b3; --inline-border-right: #0083b3; --inline-border-bottom: #0083b3; --inline-border-left: #0083b3; background-image: url(&quot;https://studio.code.org/blockly/media/1x1.gif&quot;);"
+        data-canonical-image-url="" data-image-type="default" data-icon-color="#00bbff" data-inline-bgcolor=""
+        data-inline-color="" data-inline-border-top="" data-inline-border-right="" data-inline-border-bottom=""
+        data-inline-border-left="">HOME</button></div>
+  </div>
+</body>
+
+</html>
